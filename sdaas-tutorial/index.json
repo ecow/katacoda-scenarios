@@ -35,8 +35,8 @@
       "text": "finish.md"
     },
 	"assets": {
-	    "client": [
-	      {"file": "*", "target": "~/tutorial/" }
+	    "host01": [
+	      {"file": "*", "target": "/tmp/xxx" }
 	    ]
   	}
   },

@@ -32,11 +32,6 @@ Now you should be able [connect to the graph database workbench](https://[[HOST_
 
 `docker exec -ti sdaas sdaas`{{execute}}
 
-you should get something as:
+You shoud get the prompt of sddas command line interface:
 
-```
-sdaas Sun Sep 16 11:48:50 UTC 2018 - SD_START_LOGGING logging .cache/session_60.log
-sdaas Sun Sep 16 11:48:50 UTC 2018 - SD_START_LOGGING debug info in .cache/session_60.debug
-sdaas Sun Sep 16 11:48:50 UTC 2018 - LinkedData.Center SDaaS platform using kb graph technology.
-sdaas >
-```
+`sdaas > `

@@ -1,5 +1,5 @@
-SDaaS community edition () is a light version of the full LinkedData.Center SDaaS platform.
-sdaas-ce is available as an open source  docker container in docker-hub.
+SDaaS community edition  is a light version of the full LinkedData.Center SDaaS platform.
+sdaas-ce is available as an open source in a  docker container downloadable from docker-hub.
 
 ## Verify that you have a running docker
 
@@ -22,7 +22,7 @@ This will create all required service. Check that the platform is running with t
 
 `docker ps`{{execute}}
 
-you should see a running container with the name **sdaas**
+you will see a running container with the name **sdaas**
 
 The SDaaS-ce plaform include an istance of blazergraph as graph database.
 

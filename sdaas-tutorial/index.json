@@ -1,5 +1,5 @@
 {
-  "title": "SDaaS tutorial 01.3",
+  "title": "SDaaS primer",
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
   "time": "5 minutes",
@@ -36,7 +36,7 @@
     },
 	"assets": {
 	    "client": [
-	      {"file": "istat.construct", "target": "~/" }
+	      {"file": "*", "target": "~/" }
 	    ]
   	}
   },

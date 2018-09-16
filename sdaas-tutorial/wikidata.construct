@@ -1,0 +1,18 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX schema: <http://schema.org/>
+PREFIX myschema: <http://schema.mycompany.com/>
+
+CONSTRUCT {
+    ?city a schema:City;
+        schema:sameAs ?comune_italiano;
+        myschema:popolazione ?popolazione;
+}
+WHERE {
+    SERVICE <https://query.wikidata.org/sparql> {
+	  ?comune_italiano wdt:P31 wd:Q747074 ;
+	  	wdt:P635 ?codice_ISTAT ;
+	    wdt:P1082 ?popolazione
+	  BIND( IRI(CONCAT("http://data.mycompany.com/resource/city_", ?codice_ISTAT)) AS ?city)  
+	}	
+}

@@ -41,5 +41,13 @@
   },
   "backend": {
     "imageid": "docker"
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "*.construct",
+        "target": "/workspace"
+      }
+    ]
   }
 }

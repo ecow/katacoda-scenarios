@@ -36,7 +36,10 @@
     },
 	"assets": {
 	    "client": [
-	      {"file": "*", "target": "/workspace" }
+	      {"file": "*", "target": "~/" }
+	    ],
+	    "host01": [
+	      {"file": "*", "target": "~/" }
 	    ]
   	}
   },

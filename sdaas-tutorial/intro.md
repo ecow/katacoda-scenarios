@@ -13,4 +13,4 @@ This tutorial will teach you how to build a knowledge base that  is able to answ
 
 - *Where are the  three most important communities of asian people in the area of Milan in Italy?*
 
-(v.0.0.1)
+(v.0.0.2)

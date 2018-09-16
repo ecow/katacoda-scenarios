@@ -27,7 +27,7 @@
     	}
     ],
     "intro": {
-      "code": "courseBase.sh",
+      "courseData": "courseBase.sh",
       "text": "intro.md",
       "credits": ""
     },
@@ -43,10 +43,16 @@
     "imageid": "docker"
   },
   "assets": {
+    "client": [
+      {
+        "file": "istat.construct",
+        "target": "~/istat.construct"
+      }
+    ],
     "host01": [
       {
-        "file": "*.construct",
-        "target": "/workspace"
+        "file": "istat.construct",
+        "target": "/workspace/istat.construct"
       }
     ]
   }

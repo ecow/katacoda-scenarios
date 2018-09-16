@@ -45,14 +45,8 @@
   "assets": {
     "client": [
       {
-        "file": "istat.construct",
-        "target": "~/istat.construct"
-      }
-    ],
-    "host01": [
-      {
-        "file": "istat.construct",
-        "target": "/workspace/istat.construct"
+        "file": "*",
+        "target": "~/"
       }
     ]
   }

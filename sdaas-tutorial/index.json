@@ -37,7 +37,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 9999}, {"name": "Knowledge base workbench", "port": 9999}],
+    "dashboards": [{"name": "Knowledge base workbench", "port": 8889, "path": "/sdaas"}],
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive SDaaS Terminal.\r\n"
   },

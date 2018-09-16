@@ -33,7 +33,12 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+	"assets": {
+	    "host01": [
+	      {"file": "istat.construct", "target": "~/" }
+	    ]
+  	}
   },
   "environment": {
     "uilayout": "terminal",
@@ -41,14 +46,6 @@
   },
   "backend": {
     "imageid": "docker"
-  },
-  "assets": {
-    "client": [
-      {
-        "file": "istat.construct",
-        "target": "~/"
-      }
-    ]
   }
 }
 

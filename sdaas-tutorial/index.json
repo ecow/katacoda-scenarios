@@ -1,5 +1,5 @@
 {
-  "title": "SDaaS tutorial 01.0",
+  "title": "SDaaS tutorial 01.1",
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
   "time": "5 minutes",
@@ -45,7 +45,7 @@
   "assets": {
     "host01": [
       {
-        "file": "*",
+        "file": "istat.construct",
         "target": "~/"
       }
     ]

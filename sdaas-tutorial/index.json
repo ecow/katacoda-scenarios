@@ -2,13 +2,32 @@
   "title": "SDaaS tutorial",
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - start SDaaS community edition",
-      "text": "step1.md"
-    }],
+    "steps": [
+    	{
+	      "title": "Step 1 - start SDaaS community edition",
+	      "text": "step1.md"
+    	},
+    	{
+	      "title": "Step 2 - Learn data from ISTAT",
+	      "text": "step2.md"
+    	},
+    	{
+	      "title": "Step 3 - Learn data from Wikipedia",
+	      "text": "step3.md"
+    	},
+    	{
+	      "title": "Step 4 - Import your data",
+	      "text": "step4.md"
+    	},
+    	{
+	      "title": "Step 5 - create a build script",
+	      "text": "step5.md"
+    	}
+    ],
     "intro": {
+      "courseData": "courseBase.sh",
       "text": "intro.md",
       "credits": ""
     },
@@ -17,8 +36,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 9999}, {"name": "Knowledge base workbench", "port": 9999}],
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive SDaaS Terminal.\r\n"
   },
   "backend": {
     "imageid": "docker"

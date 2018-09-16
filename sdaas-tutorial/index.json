@@ -36,7 +36,7 @@
     },
 	"assets": {
 	    "client": [
-	      {"file": "*", "target": "~/" }
+	      {"file": "*", "target": "~/tutorial/" }
 	    ]
   	}
   },

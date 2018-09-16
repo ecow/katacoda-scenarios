@@ -16,7 +16,7 @@ Any docker 18+ is good enough to run sdaas-ce.
 
 run:
 
-`docker run --name sdaas -d -p 8889:8080 -v $PWD/.:/workspace linkeddatacenter/sdaas-ce`{{execute}}
+`docker run --name sdaas -d -p 8889:8080 linkeddatacenter/sdaas-ce`{{execute}}
 
 This will create all required service. Check that the platform is running with the command:
 

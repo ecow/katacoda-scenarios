@@ -27,7 +27,7 @@
     	}
     ],
     "intro": {
-      "courseData": "courseBase.sh",
+      "code": "courseBase.sh",
       "text": "intro.md",
       "credits": ""
     },
@@ -35,9 +35,6 @@
       "text": "finish.md"
     },
 	"assets": {
-	    "client": [
-	      {"file": "*", "target": "~/" }
-	    ],
 	    "host01": [
 	      {"file": "*", "target": "~/" }
 	    ]

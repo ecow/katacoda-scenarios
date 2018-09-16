@@ -2,7 +2,7 @@
   "title": "SDaaS tutorial",
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
-  "time": "10 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
     	{
@@ -36,8 +36,6 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "dashboards": [{"name": "Knowledge base workbench", "port": 8889, "path": "/sdaas"}],
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive SDaaS Terminal.\r\n"
   },

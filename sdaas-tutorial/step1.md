@@ -12,7 +12,7 @@ You should get something as:
 Any docker 18+ is good enough to run sdaas-ce.
 
 
-## Execute the plaform
+## Execute the SDaaS platform
 
 run:
 

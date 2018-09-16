@@ -6,7 +6,7 @@ of the SDaaS Community Edition platform by [LinkedData.Center](http://LinkedData
 
 SDaaS is a Smart Data Management Platform based on **W3C Semantic Web Standards**.
 
-With SDaaS you can learn from billions of open data sources integrate your private data and organize all the information in a private knowledge base.
+With SDaaS you can learn from billions of open data, sources integrate your private data and organize all the information in a private knowledge base.
 
 This tutorial will teach you how to build a knowledge base that  is able to answering the following question:
 

@@ -8,7 +8,7 @@ Just create  file "istat.construct":
 
 then load it in the SDaaS platform with the command:
 
-`SD_EVAL_CONSTRUCTOR http://datiopen.istat.it/ @istat.construct`{{execute}}
+`SD_EVAL_CONSTRUCTOR http://datiopen.istat.it/ @wikidata.construct`{{execute}}
 
-Great, now [test that your knowledge base contains data about Milan city](https://[[HOST_SUBDOMAIN]]-8889-[[KATACODA_HOST]].environments.katacoda.com/sdaas/#explore:kb:http://data.mycompany.com/resource/city_015146)
+Great, [your knowledge base contains data about Milan city](https://[[HOST_SUBDOMAIN]]-8889-[[KATACODA_HOST]].environments.katacoda.com/sdaas/#explore:kb:http://data.mycompany.com/resource/city_015146)
 

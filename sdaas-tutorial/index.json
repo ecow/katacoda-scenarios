@@ -43,17 +43,12 @@
     "imageid": "docker"
   },
   "assets": {
-    "client": [
-      {
-        "file": "istat.construct",
-        "target": "/"
-      }
-    ],
     "host01": [
         {
-          "file": "wikidata.construct",
-          "target": "/"
+          "file": "istat.construct",
+          "target": "/tmp/"
         }
       ]
   }
 }
+

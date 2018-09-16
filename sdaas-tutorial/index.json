@@ -45,7 +45,7 @@
   "assets": {
     "host01": [
       {
-        "file": "istat.construct",
+        "file": "*",
         "target": "~/"
       }
     ]

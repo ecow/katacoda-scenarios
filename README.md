@@ -1,10 +1,5 @@
-# Interactive Katacoda Scenarios
+# Interactive LinkedData.Center tutorials
 
-[![](http://shields.katacoda.com/katacoda/enrico/count.svg)](https://www.katacoda.com/enrico "Get your profile on Katacoda.com")
+[![](http://shields.katacoda.com/katacoda/enrico/count.svg)](https://www.katacoda.com/enrico)
 
 Visit https://www.katacoda.com/enrico to view the profile and interactive scenarios
-
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
-
-For examples, visit https://github.com/katacoda/scenario-example

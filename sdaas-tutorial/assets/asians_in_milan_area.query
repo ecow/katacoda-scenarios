@@ -1,8 +1,8 @@
 PREFIX schema: <http://schema.org/>
 PREFIX myschema: <http://schema.mycompany.com/>
 
-SELECT ( SUM(?asians_in_city) as ?asians)
+SELECT (SUM(?asians_in_city) as ?asians)
 WHERE {
 	?city a schema:City ;
 		myschema:popolazioneAsiatica ?asians_in_city .
-} GROUP BY ?city
+} 

@@ -9,7 +9,7 @@ With SDaaS you learn from billions of open data sources,  integrate, clean and e
 
 Suppose that you are a blogger that want to investigate the impact of some new laws on the asian community in the area of Milan in North Italy.
 
-This tutorial will teach you how to build a knowledge base that  is able to answering the following questions:
+This tutorial will teach you how to build a knowledge base that answers the following questions:
 
 - *Where are the  three most important communities of asian people in the area of Milan in Italy?*
 - *what is the size of asian community in Milan Area?*

@@ -8,4 +8,4 @@ WHERE {
 		myschema:popolazioneAsiatica ?asians_in_city ;	
 		myschema:popolazione ?city_population .
 	BIND( ?asians_in_city/?city_population AS ?asian_density )
-} ORDER BY DESC(?asian_density) ?city_name
+} ORDER BY DESC(?asian_density) ?city_name LIMIT 10

@@ -4,10 +4,10 @@ SPARQL query is the standard language, defined by W3C to interrogate a knowledge
 
 This query create a table, with the three cities with more asian people:
 
-`cat asian_communities.query`{{execute}}
+`cat asian_communities.sparql`{{execute}}
 
 Get the result as csv with the command:
 
-`SD_SPARQL_QUERY text/csv @asian_communities.query`{{execute}}
+`SD_SPARQL_QUERY text/csv @asian_communities.sparql`{{execute}}
 
 Great, we got an answer to the firs of our questions.

@@ -6,7 +6,7 @@ exit fron sdaas cli:
 
 create a directory named "questions" an move in all your sparql queries
 `mkdir -p questions`{{execute}}
-`cp -f *.query questions/`{{execute}}
+`cp -f *.sparql questions/`{{execute}}
 
 Create a file with name build.sdaas (you chan choose the name) and put all SD_ commands one per line. the last line will be SD_THATS_ALL_FOLKS
 

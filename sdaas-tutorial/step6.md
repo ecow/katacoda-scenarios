@@ -1,6 +1,6 @@
 Create a script to rebuild the whole knowledge base is easy.
 
-exit fron sdaas cli:
+exit from the sdaas cli:
 
 `exit`{{execute}}
 

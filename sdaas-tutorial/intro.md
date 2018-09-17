@@ -12,5 +12,5 @@ Suppose that you are a blogger that want to investigate the impact of some new l
 This tutorial will teach you how to build a knowledge base that answers the following questions:
 
 - *Where are the  three most important communities of asian people in the area of Milan in Italy?*
-- *what is the size of asian community in Milan Area?*
-- *what are the three cities in Milan area with the high density of asian people?*
+- *What is the size of asian community in Milan Area?*
+- *What are the ten cities in Milan area with the high density of asian people?*

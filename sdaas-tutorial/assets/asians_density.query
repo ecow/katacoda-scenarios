@@ -1,0 +1,11 @@
+PREFIX schema: <http://schema.org/>
+PREFIX myschema: <http://schema.mycompany.com/>
+
+SELECT ?city_name ?asian_density
+WHERE {
+	?city a schema:City ;
+		schema:name ?city_name ;
+		myschema:popolazioneAsiatica ?asians_in_city ;	
+		myschema:popolazione ?city_population .
+	BIND( ?asians_in_city/?city_population AS ?asian_density )
+} ORDER BY DESC(?asian_density) ?city_name

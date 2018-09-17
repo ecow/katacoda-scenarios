@@ -1,0 +1,9 @@
+PREFIX schema: <http://schema.org/>
+PREFIX myschema: <http://schema.mycompany.com/>
+
+SELECT ?city_name ?size_of_asian_comunity
+WHERE {
+	?city a schema:City ;
+		schema:name ?city_name ;
+		myschema:popolazioneAsiatica ?size_of_asian_comunity .
+} ORDER BY DESC(?size_of_asian_comunity) LIMIT 3

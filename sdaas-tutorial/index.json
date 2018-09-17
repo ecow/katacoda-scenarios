@@ -2,7 +2,7 @@
   "title": "SDaaS primer",
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
     	{
@@ -18,12 +18,16 @@
 	      "text": "step3.md"
     	},
     	{
-	      "title": "Step 4 - Import your data",
+	      "title": "Step 4 - query data",
 	      "text": "step4.md"
     	},
     	{
-	      "title": "Step 5 - create a build script",
+	      "title": "Step 5 - more queries",
 	      "text": "step5.md"
+    	},
+    	{
+	      "title": "Step 6 - create a build script",
+	      "text": "step6.md"
     	}
     ],
     "intro": {

@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -a
+
+SD_INCLUDE scripts/bdap.include
+
+####################################################
+SD_LOG  "Starting booting window: configure knowledge base..."
+####################################################
+SD_LOAD_RDF_FILE urn:sdaas:config "data/kees.ttl"
+
+####################################################
+SD_LOG  "Starting learning window: loading facts. This will take a while..."
+####################################################
+
+# Learn currency description from dbpedia
+SD_LEARN "http://dbpedia.org/data/Euro.n3"
+
+# Learn time intervals from uk reference 
+for year in $(seq 2013 2022) ; do
+	SD_LEARN "http://reference.data.gov.uk/doc/gregorian-interval/${year}-01-01T00:00:00/P1Y"
+done
+
+# G0V_LEARN_FROM_BDAP spd_dlb_spe_elb_cap_01_2019
+
+for year in $(seq 2013 2018) ; do
+	G0V_LEARN_FROM_BDAP spd_lbf_spe_elb_cap_01_${year}
+done
+
+
+####################################################
+SD_LOG  "Starting reasoning window: computing axioms and rules..."
+####################################################
+GRAPH="http://data.budget.g0v.it/resource/"
+for axiomFile in $(ls -v axioms/*construct); do
+	axiomGraph=$(basename $axiomFile)
+	SD_REASONING_BY SD_EVAL_CONSTRUCTOR "${GRAPH}${axiomGraph}" @$axiomFile
+done
+
+SD_THATS_ALL_FOLKS

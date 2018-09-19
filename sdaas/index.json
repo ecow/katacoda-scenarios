@@ -1,0 +1,26 @@
+{
+  "title": "SDaaS primer",
+  "description": "Use SDaaS to build a simple knowledge base",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+    	{
+	      "title": "Step 1 - start SDaaS community edition",
+	      "text": "step1.md"
+    	}
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "© 2018 by LinkedData.Center"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mWait SDaaS platform installation...\r\n"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
+

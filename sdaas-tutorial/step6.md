@@ -1,10 +1,9 @@
-Create a script to rebuild the whole knowledge base is easy.
-
+To create a script to rebuild the whole knowledge base, 
 exit from the sdaas cli:
 
 `exit`{{execute}}
 
-Create a file with name build.sdaas (you chan choose the name) and put all SD_ commands one per line. the last line will be SD_THATS_ALL_FOLKS
+Now edit a file with name build.sdaas (you chan choose the name) with a command  per line. The last line will be SD_THATS_ALL_FOLKS:
 
 ```
 SD_EVAL_CONSTRUCTOR http://datiopen.istat.it/ @istat.construct

@@ -3,6 +3,8 @@
   "description": "Use SDaaS to build a simple knowledge base",
   "difficulty": "beginner",
   "time": "10 minutes",
+  "data-katacoda-ctatext": "See more about SDaaS",
+  "data-katacoda-cta": "https://en.linkeddata.center/",
   "details": {
     "steps": [
     	{

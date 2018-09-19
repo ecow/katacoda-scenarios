@@ -10,4 +10,4 @@ Get the result in csv format with the command:
 
 `SD_SPARQL_QUERY text/csv @asian_communities.sparql`{{execute}}
 
-Great, we got an answer to the first of our questions (Where are the  three most important communities of asian people in the area of Milan in Italy?).
+Great, we got an answer to the first of our questions (*Where are the  three most important communities of asian people in the area of Milan in Italy?*).

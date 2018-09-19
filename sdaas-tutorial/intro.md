@@ -3,7 +3,7 @@ Welcome to your first SDaaS tutorial!
 
 During this tutorial you will learn how to use the SDaaS Community Edition platform by [LinkedData.Center](http://LinkedData.Center).
 
-Suppose that you are a blogger that want to investigate the impact of some new laws on the asian community in the area of Milan in North Italy.
+Suppose that you are a blogger that wants to write a post about asian community in the area of Milan in North Italy.
 
 This tutorial will teach you how to build a knowledge base that answers the following questions:
 

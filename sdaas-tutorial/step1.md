@@ -10,4 +10,6 @@ Wait the complention of the platform installation (it take some time). At prompt
 
 `docker exec -ti ldc sdaas`{{execute}}
 
-to enter the command line interface (CLI)
+to enter the command line interface (CLI). 
+
+**Complete all steps by typing on the console or just clicking on the command then continue**
